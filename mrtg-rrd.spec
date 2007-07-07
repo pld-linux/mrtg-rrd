@@ -18,6 +18,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_cgidir		/usr/share/%{name}
 
 %description
+Multi Router Traffic Grapher.
+
+%description -l pl.UTF-8
+MRTG - generator obrazów obci±¿enia ³±cz.
 
 %prep
 %setup -q
