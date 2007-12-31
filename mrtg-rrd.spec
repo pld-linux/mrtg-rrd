@@ -3,7 +3,7 @@
 # - take a look at debian stuff - they have a lot of fixes
 %include	/usr/lib/rpm/macros.perl
 Summary:	Multi Router Traffic Grapher
-Summary(pl):	MRTG - generator obrazów obci±¿enia ³±cz
+Summary(pl.UTF-8):	MRTG - generator obrazÃ³w obciÄ…Å¼enia Å‚Ä…cz
 Name:		mrtg-rrd
 Version:	0.7
 Release:	0.1
@@ -21,7 +21,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Multi Router Traffic Grapher.
 
 %description -l pl.UTF-8
-MRTG - generator obrazów obci±¿enia ³±cz.
+MRTG - generator obrazÃ³w obciÄ…Å¼enia Å‚Ä…cz.
 
 %prep
 %setup -q
