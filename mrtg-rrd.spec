@@ -1,7 +1,6 @@
 # TODO:
 # - finish it
 # - take a look at debian stuff - they have a lot of fixes
-%include	/usr/lib/rpm/macros.perl
 Summary:	Multi Router Traffic Grapher
 Summary(pl.UTF-8):	MRTG - generator obrazów obciążenia łącz
 Name:		mrtg-rrd
